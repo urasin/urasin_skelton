@@ -1,0 +1,20 @@
+[vagrant]
+xxx.xxx.xxx ansible_ssh_user=vagrant
+
+[staging]
+xxx.xxx.xxx ansible_ssh_user=ec2-user ansible_ssh_private_key_file=./hoge.pem
+
+[production]
+xxx.xxx.xxx ansible_ssh_user=ec2-user ansible_ssh_private_key_file=./hoge.pem
+
+[all:vars]
+
+[vagrant:vars]
+group_name=vagrant
+
+[staging:vars]
+group_name=staging
+
+[production:vars]
+group_name=production
+

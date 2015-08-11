@@ -1,0 +1,2 @@
+- include: bashrc.yml
+- include: git.yml
