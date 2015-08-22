@@ -4,3 +4,6 @@ django==1.8.4
 djangorestframework
 markdown
 django-filter
+
+# for database
+mysqlclient
