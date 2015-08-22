@@ -1,2 +1,6 @@
 django==1.8.4
 
+# for restframework
+djangorestframework
+markdown
+django-filter
