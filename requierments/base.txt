@@ -1,5 +1,5 @@
-ipython
-
+ipython==2.4 # for jupyter + django
+jupyter
 
 django==1.8.4
 
@@ -7,3 +7,6 @@ django==1.8.4
 djangorestframework
 markdown
 django-filter
+
+django-extensions
+
